@@ -12,7 +12,7 @@ with open(election_data, "r") as csvfile:
     for row in csv_reader:
         candidate=row[2]
         if candidate in candidate_list:
-            vote_counts[candidate] += 1
+            vote_counts[candidate] += 1 
 
 Total_votes = sum(vote_counts.values())
 
@@ -56,8 +56,3 @@ print()
 print("--> Results recorded in Pypoll/Analysis/poll_analysis.csv <--")
 print()
 #I just thought this little bit would be neat :)
-
-
-
-
-
