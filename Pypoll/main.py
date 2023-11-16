@@ -18,6 +18,7 @@ Total_votes = sum(vote_counts.values())
 
 winner = max(vote_counts, key=vote_counts.get)
 
+
 #print in terminal -- probably unecessary, but I like it for the sake of the project
 print(f"Election Results")
 print("----------------------")
